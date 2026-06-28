@@ -20,6 +20,6 @@ Ask your agent to use `recruiting-contact-investigator` with a vacancy URL, comp
 
 ## Files
 
-- `SKILL.md` - main skill instructions
-- `references/contact-search-playbook.md` - branch-by-branch contact search playbook
-- `agents/openai.yaml` - OpenAI/Codex display metadata
+- `skills/recruiting-contact-investigator/SKILL.md` - main skill instructions
+- `skills/recruiting-contact-investigator/references/contact-search-playbook.md` - branch-by-branch contact search playbook
+- `skills/recruiting-contact-investigator/agents/openai.yaml` - OpenAI/Codex display metadata
