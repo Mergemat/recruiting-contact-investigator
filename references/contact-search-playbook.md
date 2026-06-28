@@ -4,16 +4,16 @@ Use this reference while executing the investigation loop. Treat each branch as 
 
 ## HH / HeadHunter Vacancy
 
-If the user provides an HH vacancy ID or URL, run the local CLI before browsing:
+If the user provides an HH vacancy ID or URL, run the `firehh` CLI before browsing:
 
 ```bash
-bun run hh:vacancy <vacancy-id>
+firehh <vacancy-id>
 ```
 
 Example:
 
 ```bash
-bun run hh:vacancy 133561763
+firehh 133561763
 ```
 
 For URLs like `https://hh.ru/vacancy/133561763`, extract `133561763` and run the same command.
