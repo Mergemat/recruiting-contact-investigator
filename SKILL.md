@@ -28,7 +28,7 @@ If a required input is missing, infer from the source when possible. Ask only wh
 ## Investigation Loop
 
 1. Build search roles before searching.
-   - If the input includes an HH/HeadHunter vacancy ID or URL, first run `bun run hh:vacancy <vacancy-id>` from the project root to extract vacancy title, employer, region, skills, and description. Example: `bun run hh:vacancy 133561763`.
+   - If the input includes an HH/HeadHunter vacancy ID or URL, first run `firehh <vacancy-id>` to extract vacancy title, employer, region, skills, and description. Example: `firehh 133561763`.
    - Generate likely titles for this hire: recruiter, talent acquisition, HR partner, head of department, CPO, CTO, team lead, and role-specific leaders.
    - Completion: HH vacancy details are captured when applicable, and the role list includes recruiting roles plus at least one plausible hiring-manager path.
 
