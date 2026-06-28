@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recruiting Contact Investigator"
+  short_description: "Find recruiter and hiring manager contacts"
+  default_prompt: "Use $recruiting-contact-investigator to find the best recruiter or hiring manager contact for this vacancy and company."

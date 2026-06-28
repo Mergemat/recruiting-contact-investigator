@@ -1,0 +1,10 @@
+{
+  "$schema": "https://skills.sh/schema.json",
+  "groups": [
+    {
+      "title": "Recruiting",
+      "description": "Skills for finding public recruiting and hiring-manager contact routes.",
+      "skills": ["recruiting-contact-investigator"]
+    }
+  ]
+}
