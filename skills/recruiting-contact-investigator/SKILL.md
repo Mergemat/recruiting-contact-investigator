@@ -41,7 +41,7 @@ If a required input is missing, infer from the source when possible. Ask only wh
 3. Convert traces into contact candidates.
    - Capture name, role, company fit, source URL or source description, contact route, evidence quality, and confidence.
    - Label evidence quality as `verified page`, `public indexed snippet`, `cross-source match`, or `unverified lead`.
-   - Prefer direct Telegram handles or Telegram-channel contact routes over generic email and weaker social DMs. Treat plain email as weak unless the user asks for email.
+   - Prefer direct Telegram handles contact routes over generic email and weaker social DMs. Treat plain email as weak unless the user asks for email.
    - Completion: each candidate has a contact route or is explicitly marked as unresolved.
 
 4. Verify relevance.
