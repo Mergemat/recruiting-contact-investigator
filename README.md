@@ -1,6 +1,6 @@
 # Recruiting Contact Investigator
 
-Skill for investigating recruiter, talent acquisition, HR, and hiring-manager contacts from vacancy traces, company pages, HH/HeadHunter vacancies, Habr Career, LinkedIn, Telegram, and public web evidence.
+Skill for investigating and verifying direct recruiter, HR, hiring-manager, team-lead, C-level, and internal-referral contacts from vacancy and company traces.
 
 ## Install
 
@@ -16,7 +16,7 @@ npx skills add Mergemat/recruiting-contact-investigator
 
 ## Use
 
-Ask your agent to use `recruiting-contact-investigator` with a vacancy URL, company name, person name, or hiring lead. The skill returns a ranked investigator report with best contacts, evidence checked, and next actions.
+Ask your agent to use `recruiting-contact-investigator` with a vacancy URL, company name, person name, or hiring lead. It separates current-role evidence from contact-route ownership, satisfies the requested contact count when possible, and keeps inferred handles out of the verified result list.
 
 ## Files
 
